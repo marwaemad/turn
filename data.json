@@ -1,0 +1,101 @@
+{
+  "lang": [
+    {
+      "name": "arabic",
+      "icon": "../../../assets/image/ar.png"
+    },
+    {
+      "name": "english",
+      "icon": "../../../assets/image/en.png"
+    }
+  ],
+  "ads": [
+    {
+      "url": "../../../assets/image/ads1.png"
+    },
+    {
+      "url": "../../../assets/image/ads2.png"
+    },
+    {
+      "url": "../../../assets/image/ads3.png"
+    }
+  ],
+  "posts": [
+    {
+      "id": 0,
+      "author": "username",
+      "title": "Do you think it’s important to study abroad nowdays ?",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....",
+      "img": "../../../assets/image/img1.png",
+      "video": "",
+      "university": "cambridg",
+      "date": "17 Min Ago"
+    },
+    {
+      "id": 1,
+      "author": "username",
+      "title": "Only 3 simple steps to apply for alberta university",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....",
+      "img": "../../../assets/image/img2.png",
+      "video": "",
+      "university": "cambridg",
+      "date": "17 Min Ago"
+    },
+    {
+      "id": 2,
+      "author": "username",
+      "title": "Only 3 simple steps to apply for alberta university",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....",
+      "img": "../../../assets/image/img3.png",
+      "video": "",
+      "university": "cambridg",
+      "date": "17 Min Ago"
+    },
+    {
+      "id": 3,
+      "author": "typicode",
+      "title": "Achieving your goals by thinking out of the box",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....",
+      "img": "ttp",
+      "video": "",
+      "university": "cambridg",
+      "date": "17/5/2017"
+    },
+    {
+      "desc": "sdfghjk",
+      "img": "",
+      "vedio": "",
+      "id": 4,
+      "author": "user",
+      "university": "cambridg",
+      "date": "17/5/2017"
+    },
+    {
+      "desc": "hello from the other side",
+      "img": "",
+      "vedio": "",
+      "id": 5,
+      "author": "",
+      "university": "cambridg",
+      "date": "17/5/2017"
+    },
+    {
+      "desc": "hey i'm update the upload",
+      "img": "",
+      "vedio": "",
+      "id": 6,
+      "author": "",
+      "university": "cambridg",
+      "date": "17/5/2017"
+    },
+    {
+      "desc": "",
+      "img": "",
+      "vedio": "",
+      "id": 7,
+      "author": "",
+      "university": "cambridg",
+      "date": "17/5/2017"
+    }
+  ]
+}

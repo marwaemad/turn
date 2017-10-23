@@ -1,0 +1,29 @@
+<div class="col-xs-12 post" *ngFor="let post of loadposts">
+  <div class="col-xs-12 title">
+    <div class="col-md-9 user">
+      <div class="col-xs-3 img">
+        <img src="../../../assets/image/Profile pic.png" alt="" class="im-responsive">
+      </div>
+      <div class="col-xs-9 info">
+        <h3 class="name">{{post.author}}</h3>
+        <p>{{post.university}}</p>
+      </div>
+    </div>
+    <div class="col-md-3 date">
+      <i class="fa fa-calendar" aria-hidden="true"></i><span>{{post.date}}</span>
+    </div>
+  </div>
+  <div class="col-xs-12 desc">
+    <p class="subject">{{post.title}}</p>
+    <img [src]="post.img" alt="" class="img-responsive">
+    <p class="des">{{post.desc}}</p>
+  </div>
+  <div class="social col-xs-12">
+   <ul class="col-md-6">
+     <li><i class="fa fa-comment" aria-hidden="true"></i>Comment</li>
+     <li><i class="fa fa-smile-o" aria-hidden="true"></i>Like</li>
+   </ul>
+   <h4 class="col-md-6 more">Read More<i  class="fa fa-plus-circle"></i></h4>
+  </div>
+  
+</div>

@@ -1,0 +1,87 @@
+$main-color:rgb(26, 54, 77);
+.add-post {
+  padding: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  .title {
+    background-color: $main-color;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    h3 {
+      font-size: 16px;
+      i {
+        margin: 0 5px;
+      }
+    }
+  }
+  form {
+    background-color: #fff;
+    textarea {
+      background: none repeat scroll 0 0 #fff;
+      border: none;
+      border-bottom: 1px solid #d1d7db;
+      color: #777777;
+      float: left;
+      height: 95px;
+      letter-spacing: 0.3px;
+      padding: 20px;
+      width: 100%;
+      resize: vertical;
+      outline: none;
+      padding: 10px 0;
+    }
+    .video {
+        padding: 0;
+      input {
+        width: 100%;
+        border: none;
+        padding: 5px;
+      }
+    }
+    ul {
+      float: left;
+      list-style: none outside none;
+      margin: 0;
+      padding: 0;
+      width: auto;
+      li {
+        float: left;
+        border-right: 1px solid #d1d7db;
+        margin: 10px 1px 10px 0px;
+        a {
+          color: #d1d7db;
+          float: left;
+          font-size: 16px;
+          height: 30px;
+          line-height: 30px;
+          text-align: center;
+          width: 30px;
+          cursor: pointer;
+        }
+      }
+      li:last-child {
+        border-right: none;
+      }
+    }
+    button {
+      border: medium none;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -o-border-radius: 4px;
+      border-radius: 4px;
+      color: #fff;
+      float: right;
+      font-family: Lato;
+      font-size: 14px;
+      letter-spacing: 0.3px;
+      margin-right: 9px;
+      margin-top: 9px;
+      padding: 6px 15px;
+      background-color: #ff8225;
+    }
+  }
+}
